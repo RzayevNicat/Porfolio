@@ -6,6 +6,7 @@ import Works from './components/Works';
 import { Link } from 'react-scroll';
 import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
+import Slider from './components/Slider';
 function App() {
 	return (
 		<div className="main">
@@ -78,6 +79,7 @@ function App() {
 			<Home id="home" />
 			<Works id="works" />
 			<AboutMe id="about" />
+			<Slider />
 			<Footer id="contact" />
 			<div class="snowflakes" aria-hidden="true">
 				<div className="snowflake">❅</div>

@@ -46,8 +46,8 @@ function Footer() {
 						</li>
 					</Slide>
 
-					<Slide direction="right" duration={2000} className="slide">
-										<li>
+					<Slide direction="right" duration={2000}>
+						<li>
 							<a
 								href="#"
 								onClick={(e) => {
@@ -56,9 +56,8 @@ function Footer() {
 							>
 								<SiGmail /> <span>rzzayev.nicat@gmail.com</span>
 							</a>
-						</li></Slide>
-				
-					
+						</li>
+					</Slide>
 				</ul>
 			</div>
 		</div>

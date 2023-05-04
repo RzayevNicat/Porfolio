@@ -1,0 +1,30 @@
+.slick-arrow {
+    display: none !important;
+}
+
+
+
+.sld h2 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 200;
+    color: rgba(227, 228, 230, 0.55);
+    line-height: 30px;
+    margin-bottom: 100px;
+}
+
+.sld div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sld h2 span {
+    color: white;
+    font-weight: 600;
+}
+
+.sld img {
+    width: 130px;
+    height: 160px;
+}

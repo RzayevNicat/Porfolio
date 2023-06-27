@@ -3,11 +3,11 @@ import './about.css';
 import img6 from '../../images/pexels-ashutosh-sonwani-1762578.jpg';
 import img7 from '../../images/building-g1e163a27b_1920.jpg';
 import img8 from '../../images/hand-g653e59e93_1920.jpg';
-import { Slide } from 'react-awesome-reveal';
+import Zoom from 'react-reveal/Zoom';
 function AboutMe() {
 	return (
 		<div className="about">
-			<Slide direction="left" duration={2000}>
+			<Zoom cascade>
 				<div className="about-description">
 					<h3>A BIT ABOUT ME</h3>
 					<p>
@@ -19,8 +19,8 @@ function AboutMe() {
 						and collaborative. I love <span> Music, Politics, Business, Self Development, Learning</span>.
 					</p>
 				</div>
-			</Slide>
-			<Slide direction="right" duration={2000}>
+			</Zoom>
+			<Zoom cascade>
 				<div className="about-img">
 					<div className="about-img-1">
 						<img src={img6} alt="About Img" />
@@ -30,7 +30,7 @@ function AboutMe() {
 						<img src={img8} alt="About Img" />
 					</div>
 				</div>
-			</Slide>
+			</Zoom>
 		</div>
 	);
 }

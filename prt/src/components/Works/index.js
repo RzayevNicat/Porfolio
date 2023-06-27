@@ -6,7 +6,7 @@ import img2 from '../../images/Ekran Görüntüsü (24).png';
 import img3 from '../../images/Ekran Görüntüsü (25).png';
 import img4 from '../../images/Ekran Görüntüsü (26).png';
 import img5 from '../../images/Ekran Görüntüsü (27).png';
-import { Slide, Zoom } from 'react-awesome-reveal';
+import Zoom from 'react-reveal/Zoom';
 import { FiChevronRight } from 'react-icons/fi';
 function Works() {
 	return (
@@ -14,14 +14,14 @@ function Works() {
 			<h4>Works</h4>
 			<div className="projects">
 				<div className="project">
-					<Slide direction="left" duration={1500}>
+					<Zoom cascade>
 						<div className="project-imgs">
 							<img src={img1} alt="Project img" />
 							<img src={img2} alt="Project img" />
 							<img src={img3} alt="Project img" />
 						</div>
-					</Slide>
-					<Slide direction="right" delay={0} duration={2000}>
+					</Zoom>
+					<Zoom cascade>
 						<div className="project-description">
 							<h5>E-COMMERCE</h5>
 							<p>
@@ -38,10 +38,10 @@ function Works() {
 								</a>
 							</div>
 						</div>
-					</Slide>
+					</Zoom>
 				</div>
 				<div className="project a">
-					<Slide direction="left" duration={2000}>
+					<Zoom cascade>
 						<div className="project-description">
 							<h5>SPEED TYPING GAME</h5>
 							<p>
@@ -57,13 +57,13 @@ function Works() {
 								</a>
 							</div>
 						</div>
-					</Slide>
-					<Slide direction="right" duration={1500}>
+					</Zoom>
+					<Zoom cascade>
 						<div className="project-imgs-2">
 							<img src={img4} alt="Project img" />
 							<img src={img5} alt="Project img" />
 						</div>
-					</Slide>
+					</Zoom>
 				</div>
 			</div>
 		</div>

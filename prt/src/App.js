@@ -82,16 +82,16 @@ function App() {
 			<Slider />
 			<Footer id="contact" />
 			<div class="snowflakes" aria-hidden="true">
-				<div className="snowflake">❅</div>
-				<div className="snowflake">❅</div>
-				<div className="snowflake">❆</div>
-				<div className="snowflake">❄</div>
-				<div className="snowflake">❅</div>
-				<div className="snowflake">❆</div>
-				<div className="snowflake">❄</div>
-				<div className="snowflake">❅</div>
-				<div className="snowflake">❆</div>
-				<div className="snowflake">❄</div>
+				<div className="snowflake">🔴</div>
+				<div className="snowflake">🔵</div>
+				<div className="snowflake">🟡</div>
+				<div className="snowflake">🟢</div>
+				<div className="snowflake">⚪</div>
+				<div className="snowflake">🟠</div>
+				<div className="snowflake">🟠</div>
+				<div className="snowflake">🔴</div>
+				<div className="snowflake">🔵</div>
+				<div className="snowflake">🟡</div>
 			</div>
 		</div>
 	);

@@ -6,7 +6,7 @@ import './slider.css';
 export default class Responsive extends Component {
 	render() {
 		var settings = {
-			dots: true,
+			dots: false,
 			infinite: true,
 			speed: 2000,
 			slidesToShow: 6,

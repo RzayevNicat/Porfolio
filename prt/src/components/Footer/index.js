@@ -3,11 +3,11 @@ import './footer.css';
 import { BsLinkedin, BsInstagram } from 'react-icons/bs';
 import { FiPhoneCall } from 'react-icons/fi';
 import { SiGmail } from 'react-icons/si';
-import Zoom from 'react-reveal/Zoom';
+import { Zoom } from 'react-awesome-reveal';
 function Footer() {
 	return (
 		<div className="contact">
-			<Zoom cascade>
+			<Zoom cascade fraction={1} triggerOnce>
 				<h3>
 					Contact <span>ME.</span>
 				</h3>
@@ -16,7 +16,7 @@ function Footer() {
 
 			<div className="contact-icons">
 				<ul>
-					<Zoom cascade>
+					<Zoom cascade fraction={1} triggerOnce>
 						<li>
 							<a href="https://www.linkedin.com/in/nicat-rzayev-374463219/" target="_blank">
 								<BsLinkedin />
@@ -24,7 +24,7 @@ function Footer() {
 							</a>
 						</li>
 					</Zoom>
-					<Zoom cascade>
+					<Zoom cascade fraction={1} triggerOnce>
 						<li>
 							<a
 								href="#"
@@ -37,7 +37,7 @@ function Footer() {
 							</a>
 						</li>
 					</Zoom>
-					<Zoom cascade>
+					<Zoom cascade fraction={1} triggerOnce>
 						<li>
 							<a href="https://instagram.com/rzzaef?igshid=YmMyMTA2M2Y=" target="_blank">
 								<BsInstagram />
@@ -46,7 +46,7 @@ function Footer() {
 						</li>
 					</Zoom>
 
-					<Zoom cascade>
+					<Zoom cascade fraction={1} triggerOnce>
 						<li>
 							<a
 								href="#"

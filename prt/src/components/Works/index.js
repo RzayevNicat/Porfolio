@@ -6,7 +6,7 @@ import img2 from '../../images/Ekran Görüntüsü (24).png';
 import img3 from '../../images/Ekran Görüntüsü (25).png';
 import img4 from '../../images/Ekran Görüntüsü (26).png';
 import img5 from '../../images/Ekran Görüntüsü (27).png';
-import Zoom from 'react-reveal/Zoom';
+import { Zoom, Bounce } from 'react-awesome-reveal';
 import { FiChevronRight } from 'react-icons/fi';
 function Works() {
 	return (
@@ -14,14 +14,14 @@ function Works() {
 			<h4>Works</h4>
 			<div className="projects">
 				<div className="project">
-					<Zoom cascade>
+					<Bounce cascade duration={2000} fraction={1} triggerOnce>
 						<div className="project-imgs">
 							<img src={img1} alt="Project img" />
 							<img src={img2} alt="Project img" />
 							<img src={img3} alt="Project img" />
 						</div>
-					</Zoom>
-					<Zoom cascade>
+					</Bounce>
+					<Bounce cascade duration={2000} fraction={1} triggerOnce>
 						<div className="project-description">
 							<h5>E-COMMERCE</h5>
 							<p>
@@ -38,10 +38,10 @@ function Works() {
 								</a>
 							</div>
 						</div>
-					</Zoom>
+					</Bounce>
 				</div>
 				<div className="project a">
-					<Zoom cascade>
+					<Bounce cascade duration={2000} fraction={1} triggerOnce>
 						<div className="project-description">
 							<h5>SPEED TYPING GAME</h5>
 							<p>
@@ -57,13 +57,13 @@ function Works() {
 								</a>
 							</div>
 						</div>
-					</Zoom>
-					<Zoom cascade>
+					</Bounce>
+					<Bounce cascade duration={2000} fraction={1} triggerOnce>
 						<div className="project-imgs-2">
 							<img src={img4} alt="Project img" />
 							<img src={img5} alt="Project img" />
 						</div>
-					</Zoom>
+					</Bounce>
 				</div>
 			</div>
 		</div>

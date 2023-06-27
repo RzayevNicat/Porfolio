@@ -2,7 +2,10 @@
     display: none !important;
 }
 
-
+.skils-card {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .sld h2 {
     text-align: center;
@@ -27,4 +30,29 @@
 .sld img {
     width: 130px;
     height: 160px;
+}
+
+.skil-card {
+    padding: 30px 20px;
+    background-color: #BC3CD8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: black;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.skil-card p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.skil-card img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20%;
 }

@@ -130,10 +130,15 @@ export default class Responsive extends Component {
 					</div>
 					<div className="skil-card">
 						<img
-							src="https://tse2.mm.bing.net/th?id=OIP.CLf2MbiumJ4rjRvaZtMWigHaEK&pid=Api&P=0"
+							src="https://logos-download.com/wp-content/uploads/2016/09/Node_logo_NodeJS.png"
 							alt="nodejs"
 						/>
 						<p>NodeJs</p>
+						<p>Experience: 1 year</p>
+					</div>
+					<div className="skil-card">
+						<img src="https://vectorified.com/images/express-js-icon-20.png" alt="nodejs" />
+						<p>Express JS</p>
 						<p>Experience: 1 year</p>
 					</div>
 					<div className="skil-card">

@@ -6,6 +6,7 @@ import Works from './components/Works';
 import { Link } from 'react-scroll';
 import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
+import cv from './images/NicatRzayevCV.pdf';
 import Slider from './components/Slider';
 function App() {
 	return (
@@ -70,8 +71,13 @@ function App() {
 								e.preventDefault();
 							}}
 						>
-							CONTACT ME
+							CONTACT ME |
 						</Link>
+					</li>
+					<li>
+						<a href={cv} download>
+							CV
+						</a>
 					</li>
 				</ul>
 			</nav>

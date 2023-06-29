@@ -143,6 +143,13 @@
         flex-direction: column;
     }
 
+    .project2-imgs {
+        padding: 30px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
     .project-imgs-2 {
         background: rgb(0, 0, 0);
         display: flex;
@@ -176,6 +183,13 @@
         border-radius: 10px;
         justify-content: center;
         align-items: center;
+    }
+
+    .project2-imgs {
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
     }
 
     .view-source a {
@@ -243,6 +257,12 @@
         padding: 3px 10px;
 
     }
+
+    .works h4 {
+
+        font-size: 25px;
+
+    }
 }
 
 @media only screen and (max-width: 564px) {
@@ -269,6 +289,10 @@
 
     }
 
+    .project2-imgs {
+        flex-direction: row;
+    }
+
     .project-imgs-2 {
         flex-direction: row;
     }
@@ -283,5 +307,11 @@
         width: 100px;
         height: 70px;
         margin-top: 10px;
+    }
+
+    .works h4 {
+
+        font-size: 22px;
+
     }
 }

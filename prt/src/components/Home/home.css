@@ -18,7 +18,7 @@
 .home h1 {
     font-size: 32px;
     text-align: center;
-    padding: 3% 16%;
+    padding: 5% 0px;
     display: flex;
 }
 
@@ -27,23 +27,37 @@
     margin-left: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     .home h1 {
-        font-size: 22px;
+        font-size: 26px;
+
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .home h1 {
+        font-size: 20px;
 
     }
 }
 
 @media only screen and (max-width: 425px) {
     .home h1 {
-        font-size: 19px;
+        font-size: 16px;
 
     }
 
     .home img {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
+
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .home h1 {
+        font-size: 13px;
 
     }
 }

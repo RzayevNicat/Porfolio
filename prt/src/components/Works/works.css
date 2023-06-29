@@ -39,6 +39,16 @@
     align-items: center;
 }
 
+.project2-imgs {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 33%, rgba(252, 36, 36, 1) 78%);
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .project-description {
     padding-left: 4%;

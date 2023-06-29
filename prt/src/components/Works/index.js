@@ -10,6 +10,7 @@ import img6 from '../../images/Ekran Görüntüsü (28).png';
 import img7 from '../../images/Ekran Görüntüsü (29).png';
 import { Bounce } from 'react-awesome-reveal';
 import { FiChevronRight } from 'react-icons/fi';
+
 function Works() {
 	return (
 		<div className="works">

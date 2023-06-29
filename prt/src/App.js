@@ -8,9 +8,16 @@ import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
 import cv from './images/NicatRzayevCV.pdf';
 import Slider from './components/Slider';
+import { Helmet } from 'react-helmet';
+import img from './images/IMG_9631.jpg';
 function App() {
 	return (
 		<div className="main">
+			<Helmet>
+				<meta charSet="utf-8" />
+				<link rel="icon" href={img} />
+				<title>Portfolio</title>
+			</Helmet>
 			<nav className="navbar">
 				<h4>Nicat Rzayev</h4>
 				<ul>

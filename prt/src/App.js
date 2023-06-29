@@ -6,7 +6,7 @@ import Works from './components/Works';
 import { Link } from 'react-scroll';
 import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
-import cv from './images/NicatRzayevCV.pdf';
+import cv from './images/CVNicatRzayev.pdf';
 import Slider from './components/Slider';
 import { Helmet } from 'react-helmet';
 import img from './images/IMG_9631.jpg';

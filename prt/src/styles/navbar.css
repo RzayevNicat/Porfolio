@@ -60,15 +60,59 @@
     }
 }
 
-@media only screen and (max-width: 405px) {
+@media only screen and (max-width: 440px) {
+    .navbar h4 {
+
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .navbar ul li {
+        margin-left: 6px;
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        padding-bottom: 10px;
+        font-size: 8px;
+        font-weight: 200;
+        transition: 2s;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 340px) {
     .navbar h4 {
 
         font-size: 16px;
         font-weight: 600;
     }
-  .navbar ul li {
+
+    .navbar ul li {
         margin-left: 6px;
     }
+
+    .navbar ul li a {
+        text-decoration: none;
+        padding-bottom: 10px;
+        font-size: 8px;
+        font-weight: 200;
+        transition: 2s;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 326px) {
+    .navbar h4 {
+
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .navbar ul li {
+        margin-left: 3px;
+    }
+
     .navbar ul li a {
         text-decoration: none;
         padding-bottom: 10px;

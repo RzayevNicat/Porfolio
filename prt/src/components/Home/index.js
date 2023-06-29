@@ -1,12 +1,11 @@
 import React from 'react';
 import './home.css';
+import myimg from '../../images/IMG_9631.jpg';
+import img from '../../images/pexels-ashutosh-sonwani-1762578.jpg';
 function Home() {
 	return (
 		<div className="home">
-			<img
-				src="https://media.licdn.com/dms/image/D4D03AQFhoA5jgF9uAw/profile-displayphoto-shrink_400_400/0/1673290766866?e=1687996800&v=beta&t=4jJi3igoEOcDsND5wr7KPnnmKDrYCePGDGtOmyxTUXk"
-				alt="My Img"
-			/>
+			<img src={myimg} alt="My Img" />
 			<h1>
 				I'm a <span>FRONT-END</span> developer (React) and <span>FULL-STACK</span> developer (Node.js)
 			</h1>
